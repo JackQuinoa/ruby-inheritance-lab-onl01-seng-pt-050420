@@ -1,9 +1,7 @@
 class Student < User 
   
   
-  def initialize(first, last)
-    @first_name = first 
-    @last_name = last 
+  def initialize
     @@knowledge = []
   end
   
